@@ -6,7 +6,7 @@ import pandas as pd
 
 from src.Modules.EasyRefWorker import EasyReflectionWorker
 
-path_file = r'data/EasyReflectionData/DepthsER_Gleb.txt'
+path_file = r'data/EasyReflectionData/DepthsER.txt'
 model_init = EasyReflectionWorker()
 model = model_init.calculate(path_file)
 
